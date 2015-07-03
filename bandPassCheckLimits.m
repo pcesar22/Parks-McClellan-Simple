@@ -29,7 +29,7 @@ function isValid = bandPassCheckLimits(w,h,limits,dev)
        end
     end
     
-    if(isValid) disp('PASSED. The filter response meets the specifications');
+    if(isValid) disp('PASSED. The filter response meets the required specifications');
     else disp('FAILED. The filter response does not meet the required specifications');
     end
 end
